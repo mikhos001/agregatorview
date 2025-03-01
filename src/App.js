@@ -8,7 +8,7 @@ import AppList from './AppList';
 import ManageIntegrations from './ManageIntegrations';
 import Statistics from './Statistics';
 import users from './users.json';
-import logo from './logo.svg';
+import cowImage from './cow.jpg'; // Add the new image
 import './App.css';
 
 function App() {
@@ -88,18 +88,8 @@ const ProtectedComponent = ({ onAddApp, onDeleteApp, apps }) => (
   <div className="App">
     <Navbar />
     <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Edit <code>src/App.js</code> and save to reload.
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
+      <img src={cowImage} className="App-logo" alt="cow" />
+      <p>Viewadm мясо</p>
     </header>
     <AppList apps={apps} onDeleteApp={onDeleteApp} />
   </div>
