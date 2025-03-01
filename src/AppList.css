@@ -1,0 +1,53 @@
+.app-list {
+  background: #333;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 20px auto;
+  color: white;
+  text-align: left; /* Align text to the left */
+}
+
+.app-list h2 {
+  margin-bottom: 20px;
+  color: #61dafb;
+}
+
+.app-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.app-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #444;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-list li strong {
+  color: #61dafb;
+}
+
+.app-list li span {
+  margin-left: 10px;
+  color: #ddd;
+}
+
+.delete-button {
+  padding: 5px 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  align-self: flex-end;
+}
+
+.delete-button:hover {
+  background-color: #ff1a1a;
+}
